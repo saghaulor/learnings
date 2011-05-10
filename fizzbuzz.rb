@@ -10,7 +10,9 @@ def fuzzbizz
     elsif n % 5 == 0
       puts n2 + " is a buzz"
     else
-      print n "is neither a fizz nor a buzz nor a fizzbuzz."
+      print n2 + "is neither a fizz nor a buzz nor a fizzbuzz."
     end
   end
 end
+
+fuzzbizz

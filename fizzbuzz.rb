@@ -3,11 +3,11 @@ def fuzzbizz
   while n < 101
     n += 1
     if n % 15 == 0
-      puts n.to_s + " is a fizzbuzz"
+      puts "#{n}  is a fizzbuzz"
     elsif n % 3 == 0
-      puts n.to_s + " is a fizz"
+      puts "#{n} is a fizz"
     elsif n % 5 == 0
-      puts n.to_s + " is a buzz"
+      puts "#{n} is a buzz"
     end
   end
 end
